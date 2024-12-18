@@ -1,3 +1,8 @@
+---
+title: Crystal Factions - Game Rules
+layout: default
+---
+
 # Crystal Factions - Game Rules
 
 ## Winning the Game

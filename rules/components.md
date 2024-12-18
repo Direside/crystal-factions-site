@@ -1,3 +1,9 @@
+---
+title: Crystal Factions - Game Components
+layout: default
+---
+
+
 # Game Components
 
 ## Base Cards

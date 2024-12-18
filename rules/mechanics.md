@@ -1,3 +1,9 @@
+---
+title: Crystal Factions - Mechanics
+layout: default
+---
+
+
 # Mechanics
 
 ## Must
