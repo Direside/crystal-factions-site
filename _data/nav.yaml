@@ -5,10 +5,10 @@ nav_items:
   url: index.html
 
 - title: Rules
-  url: rules/game_rules.html
+  url: /rules/game_rules.html
 
 - title: Components
-  url: rules/components.html
+  url: /rules/components.html
 
 - title: Mechanics
-  url: rules/mechanics.html
+  url: /rules/mechanics.html
