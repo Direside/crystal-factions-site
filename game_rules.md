@@ -17,11 +17,11 @@ To achieve these goals, you’ll deploy your cards in your 3 lanes to mine cryst
 
         Mining | Attack | Tech
 
-    <img src="../assets/images/base_mining.png" alt="" style="width:200px;height:auto;"><img src="../assets/images/base_attack.png" alt="" style="width:200px;height:auto;"><img src="../assets/images/base_tech.png" alt="" style="width:200px;height:auto;">
+    <img src="./assets/images/base_mining.png" alt="" style="width:200px;height:auto;"><img src="./assets/images/base_attack.png" alt="" style="width:200px;height:auto;"><img src="./assets/images/base_tech.png" alt="" style="width:200px;height:auto;">
 
 1. Place your **basic deck** face up in front of you where all players can see. Basic cards will all have 1-1-1 as their power and cost 2 with a 1 tech requirement.
 
-    <img src="../assets/images/cybernet_basic.png" alt="" style="width:150px;height:auto;">
+    <img src="./assets/images/cybernet_basic.png" alt="" style="width:150px;height:auto;">
 
 1. Shuffle and cut each other’s **faction decks**, and place them next to your basic deck face down next to your basic deck.
 
