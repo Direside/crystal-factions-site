@@ -2,13 +2,16 @@ title: Crystal Factions
 nav_items:
 
 - title: Introduction
-  url: index.html
+  url: /
 
 - title: Rules
-  url: /rules/game_rules.html
+  url: /game_rules.html
 
 - title: Components
-  url: /rules/components.html
+  url: /components.html
 
 - title: Mechanics
-  url: /rules/mechanics.html
+  url: /mechanics.html
+
+- title: Factions
+  url: /factions.html

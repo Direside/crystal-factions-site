@@ -3,23 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   <body>
+    <h1>{{ page.title }}</h1>
     <nav>
-      <h2>{{ site.data.nav.title }}</h2>
       <ul>
         {% for item in site.data.nav.nav_items %}
             <li><a href="{{ item.url }}">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
     </nav>
-    <h1>{{ page.title }}</h1>
     <section>
       {{ content }}
     </section>
     <footer>
-      &copy; to me
+      &copy; Direside
     </footer>
   </body>
 </html>

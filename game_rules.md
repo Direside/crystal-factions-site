@@ -3,9 +3,8 @@ title: Crystal Factions - Game Rules
 layout: default
 ---
 
-# Crystal Factions - Game Rules
-
 ## Winning the Game
+
 The two main objectives to win the game are to get 50 crystals in your supply, or reduce the opponents hit points to 0.
 
 To achieve these goals, you’ll deploy your cards in your 3 lanes to mine crystals, level up your attack, or research advanced technology. Cards played in the Mining lane will help you gain crystals towards playing more cards, or going for an economic victory. The Attack lane lets you deal damage to your opponents hit points or prevent damage to your own. Playing cards in the Tech lane unlocks the ability to play more advanced cards and abilities, as well as play more cards on your turn. Balancing how you play out your hand will determine who claims the planet and it's precious crystals.
@@ -16,10 +15,13 @@ To achieve these goals, you’ll deploy your cards in your 3 lanes to mine cryst
 
 1. All players place their three **base cards** in the centre of the table to form your three lanes. While it's up to your which order you place your lanes in, generally you will want to match the icons at the top of your cards, with the Mining on the left, Attack in the middle, and Tech on the right.
 
-  Mining | Attack | Tech
-  TODO: Add image of base cards
+        Mining | Attack | Tech
 
-1. Place your **basic deck** face up in front of you where all players can see. If your basic deck has any text, other players may look at the cards if needed.
+    <img src="../assets/images/base_mining.png" alt="" style="width:200px;height:auto;"><img src="../assets/images/base_attack.png" alt="" style="width:200px;height:auto;"><img src="../assets/images/base_tech.png" alt="" style="width:200px;height:auto;">
+
+1. Place your **basic deck** face up in front of you where all players can see. Basic cards will all have 1-1-1 as their power and cost 2 with a 1 tech requirement.
+
+    <img src="../assets/images/cybernet_basic.png" alt="" style="width:150px;height:auto;">
 
 1. Shuffle and cut each other’s **faction decks**, and place them next to your basic deck face down next to your basic deck.
 
@@ -27,16 +29,13 @@ To achieve these goals, you’ll deploy your cards in your 3 lanes to mine cryst
 
 1. Flip the **priority token**, or another fair, 2-sided coin to determine who has priority first. Place the **priority token** in the play area of the player who won.
 
-## Gameplay
-
 ### Starting Hand
 
-Draw up to 7 cards from either deck. You may draw one at a time and draw from either deck in any order
-Flip the first token to see who goes first. The winner keeps the token
+Draw up to 7 cards from your **Faction Deck**. Look at the cards and choose any number of cards to put on the bottom of your Faction Deck and then replace them with cards from your **Basic Deck**.
+
+## Gameplay
 
 ### Turn Phases
-
-
 
 1. Start of Round
 
@@ -81,15 +80,3 @@ Flip the first token to see who goes first. The winner keeps the token
 1. End of Round
 
     Transfer the **priority token** to the player to the left and reset any abilities that were only active "this turn".
-
-### Anatomy of a Card
-
-Cards consist of 3 main areas, the card values, the cost, and the abilities.
-
-The attack, mining and tech values across the top are the power of the card. These increase the crystals you mine, AKA money, the damage you can do to your opponents hit points, and the technology level of cards you are able to play on subsequent turns.
-
-In order to be able to play a card, you must be able to pay its cost, as well as satisfy its tech level requirements. The cost is a number of crystals that you must currently have in your supply and pay as you play the card. You cannot use crystals gained from the card, or its abilities to pay the cost.
-
-You must also have the required tech level to cover all the cards you are playing this turn. If the card has a tech level of 3, you need at least 3 tech levels at the start of your turn to be able to play it. If you are playing multiple cards, you need enough tech level to cover the sum of all your cards. E.g. If you are playing a Tech 1 and a Tech 3, you need tech level 4 to be able to do so. This resets at the end of turn, and any tech cards played the previous turn count towards your new tech level.
-
-Finally you have abilities. These are actions that happen once on the turn you play the card and have various effects. The card text should explain the ability, but see the definitions below for more information.

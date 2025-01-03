@@ -1,0 +1,55 @@
+html {
+    background-color: #111;
+    font-family: "Yanone Kaffeesatz", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+a:active {
+    color: #ffffff;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+section > img {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
