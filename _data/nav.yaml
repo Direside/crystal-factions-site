@@ -5,13 +5,13 @@ nav_items:
   url: /
 
 - title: Rules
-  url: game_rules.md
+  url: ./game_rules.html
 
 - title: Components
-  url: components.md
+  url: ./components.html
 
 - title: Mechanics
-  url: mechanics.md
+  url: ./mechanics.html
 
 - title: Factions
-  url: factions.md
+  url: ./factions.html
