@@ -1,11 +1,7 @@
 ---
-## title: Crystal Factions
-
-Mechanics
+title: Crystal Factions - Mechanics
 layout: default
 ---
-
-# Mechanics
 
 ## Keywords
 
