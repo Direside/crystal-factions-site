@@ -1,9 +1,10 @@
 ---
 title: Crystal Factions
 layout: default
+
 ---
 
-<img src="./assets/images/logo.png" alt="Crystal Factions" style="text-align:center;padding:auto;" id="logo">
+<img src="./assets/images/logo.png" alt="Crystal Factions" id="logo" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto;">
 
 Crystal Factions is a card battle game for 1-4 players with pre-made decks to get you right into the action. You play as one of the Factions of space-faring civilizations who rely on energy crystals as a power source and a currency. The battle takes place on a mineral rich planet where you and you opponents all try and mine the most crystals or just destroy your enemies and claim the planet for yourselves.
 
@@ -17,7 +18,7 @@ See [Game Rules](./game_rules.md) for how to play!
 
 Join the [Crystal Factions Discord](https://discord.gg/rnrGySzGNd) server to see when the next playtest session is!
 
-<img src="./assets/images/live_playtest_june.jpg" alt="Crystal Factions" style="text-align:center;padding:auto;" id="logo">
+<img src="./assets/images/live_playtest_june.jpg" alt="Crystal Factions" style="text-align:center;padding:auto;width:600px;height:auto;" id="logo">
 
 ## Feedback
 
