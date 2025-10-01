@@ -15,3 +15,6 @@ nav_items:
 
 - title: Factions
   url: ./factions.html
+
+- title: Patch Notes
+  url: ./patches.html

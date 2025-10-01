@@ -13,24 +13,23 @@ The two main objectives to win the game are to reduce the opponents hit points t
 
 1. Select a **Faction** to play as, and collect their **base cards**, a **faction deck** of 20 faction cards, and **basic deck**. Place any required tokens that apply to your deck, such as **Corruption** or **Boost** tokens on the table within reach of all players.
 
-1. All players place their three **base cards** in the centre of the table to form your three lanes. While it's up to your which order you place your lanes in, generally you will want to match the icons at the top of your cards, with the Mining on the left, Attack in the middle, and Tech on the right.
+1. All players place their three **base cards** in the centre of the table to form your three lanes. While it's up to your which order you place your lanes in, generally you will want to match the icons at the top of your cards, with the Mining on the left, Attack in the middle, and Production on the right.
 
-    | ![Mining](./assets/images/0Basic_Mining.png) | ![Attack](./assets/images/2Basic_Attack.png) | ![Tech](./assets/images/1Basic_Tech.png) |
-    |:---:|:---:|:---:|
+    <img src="./assets/images/0Basic_Mining.png" alt="" style="width:200px;height:auto;"> <img src="./assets/images/2Basic_Attack.png" alt="" style="width:200px;height:auto;"> <img src="./assets/images/1Basic_Tech.png" alt="" style="width:200px;height:auto;">
 
-1. Place your **basic deck** face up in front of you where all players can see. Basic cards will all have 1-1-1 as their power and cost 2 with a 1 tech requirement.
+1. Place your **basic deck** face up in front of you. Basic cards will all have 1-1-1 as their power and cost 2 crystals and 1 production.
 
     <img src="./assets/images/brig_basic.png" alt="Basic Trooper card example. 2 crystals and 1 production for a 1/1/1 power card." width="200"/>
 
 1. Shuffle and cut each other’s **faction decks**, and place them face down next to your basic deck.
 
-1. Write down your hitpoint total and starting crystal count (shown on the base cards), or use counters or dice to track it. Unless otherwise stated, you start with **20 hitpoints**, **3 crystals** and **1 production**.
+1. Write down your hitpoint total and starting crystal count, or use counters or dice to track it. Unless otherwise stated, you start with **20 hitpoints**, **3 crystals** and **1 production**.
 
 1. Flip the **priority token**, or another fair, 2-sided coin to determine who has priority first. Place the **priority token** in the play area of the player who won.
 
 ## Play Area Diagram
 
-Here is a recommended setup for your play area. While it's not strictly enforced, it should be made clear to all players where your crystal supply, production, and discard piles are. For another example see the [Screentop layout](#screentopgg) for playing on [screentop.gg](https://screentop.gg/@Direside/crystal-factions).
+Here is an examlpe setup for your play area. While it's not strictly enforced, it should be made clear to all players where your crystal supply, production, and discard piles are. For another example see the [Screentop layout](#screentopgg) for playing on [screentop.gg](https://screentop.gg/@Direside/crystal-factions).
 
 ### Legend
 
@@ -68,6 +67,8 @@ Skip the draw step on your first turn.
 1. Draw - Each player may draw 1 from their faction deck.
 
 2. Deploy - Starting with the player with the priority token, play cards from your hand and pay their costs. Activate PLAY abilities immediately after playing the card. Once a player has played all the cards and abilities they want for the round, move to the next player clockwise.
+
+    For help identifying the different parts of a card, see [Card Anatomy](./components.md#card-anatomy).
 
 3. Battle - Calculate the Attack Power (AP) for all players. Players with lower AP take the difference in damage between their own AP, and the player with the most AP.
 
