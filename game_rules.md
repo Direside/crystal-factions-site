@@ -3,80 +3,94 @@ title: Crystal Factions - Game Rules
 layout: default
 ---
 
-## Winning the Game
+## Overview
 
-The two main objectives to win the game are to get 50 crystals in your supply, or reduce the opponents hit points to 0.
+Crystal Factions is a sci-fi collectable card game where you battle against other players to secure mining rights for crystals across the galaxy.
 
-To achieve these goals, you’ll deploy your cards in your 3 lanes to mine crystals, level up your attack, or research advanced technology. Cards played in the Mining lane will help you gain crystals towards playing more cards, or going for an economic victory. The Attack lane lets you deal damage to your opponents hit points or prevent damage to your own. Playing cards in the Tech lane unlocks the ability to play more advanced cards and abilities, as well as play more cards on your turn. Balancing how you play out your hand will determine who claims the planet and it's precious crystals.
+The two main objectives to win the game are to reduce the opponents hit points to 0, or have greater than 50 crystals in your supply at end end of the turn.
 
 ## Setup
 
-1. Select a **Faction** to play as, and collect their **base cards**, **faction deck** and **basic deck**. Also collect any unique tokens that apply to your deck, such as **Corruption** or **Boost** tokens.
+1. Select a **Faction** to play as, and collect their **base cards**, a **faction deck** of 20 faction cards, and **basic deck**. Place any required tokens that apply to your deck, such as **Corruption** or **Boost** tokens on the table within reach of all players.
 
 1. All players place their three **base cards** in the centre of the table to form your three lanes. While it's up to your which order you place your lanes in, generally you will want to match the icons at the top of your cards, with the Mining on the left, Attack in the middle, and Tech on the right.
 
-        Mining | Attack | Tech
-
-    <img src="./assets/images/base_mining.png" alt="" style="width:200px;height:auto;"><img src="./assets/images/base_attack.png" alt="" style="width:200px;height:auto;"><img src="./assets/images/base_tech.png" alt="" style="width:200px;height:auto;">
+    | ![Mining](./assets/images/0Basic_Mining.png) | ![Attack](./assets/images/2Basic_Attack.png) | ![Tech](./assets/images/1Basic_Tech.png) |
+    |:---:|:---:|:---:|
 
 1. Place your **basic deck** face up in front of you where all players can see. Basic cards will all have 1-1-1 as their power and cost 2 with a 1 tech requirement.
 
-    <img src="./assets/images/cybernet_basic.png" alt="" style="width:150px;height:auto;">
+    <img src="./assets/images/brig_basic.png" alt="Basic Trooper card example. 2 crystals and 1 production for a 1/1/1 power card." width="200"/>
 
-1. Shuffle and cut each other’s **faction decks**, and place them next to your basic deck face down next to your basic deck.
+1. Shuffle and cut each other’s **faction decks**, and place them face down next to your basic deck.
 
-1. Write down your hitpoint total and starting crystal count (shown on the base cards), or use counters or dice to track it. Unless otherwise stated, you start with **20 hitpoints** and **5 crystals**.
+1. Write down your hitpoint total and starting crystal count (shown on the base cards), or use counters or dice to track it. Unless otherwise stated, you start with **20 hitpoints**, **3 crystals** and **1 production**.
 
 1. Flip the **priority token**, or another fair, 2-sided coin to determine who has priority first. Place the **priority token** in the play area of the player who won.
 
-### Starting Hand
+## Play Area Diagram
 
-Draw up to 7 cards from your **Faction Deck**. Look at the cards and choose any number of cards to put on the bottom of your Faction Deck and then replace them with cards from your **Basic Deck**.
+Here is a recommended setup for your play area. While it's not strictly enforced, it should be made clear to all players where your crystal supply, production, and discard piles are. For another example see the [Screentop layout](#screentopgg) for playing on [screentop.gg](https://screentop.gg/@Direside/crystal-factions).
+
+### Legend
+
+- `@` Priority Token
+- `<20>` Hitpoint tracker
+- `< >` Crystals
+- `(1)` Unused Production token
+- `(0)` Used Production token (face side down)
+- `[ ]` Lane to play cards into
+- `{ }` Permanent Cards
+
+| @      | Mining | Attack | Production | { } { } |
+| :----: | :----: | :----: | :--------: | ------: |
+|  <20>  | [ ]    | [ ]    | [ ]        |         |
+|        | [ ]    | [ ]    | [ ]        |         |
+|        | [ ]    | [ ]    | [ ]        | 0       |
+| <><><> | [ ]    | [ ]    | [ ]        | 0       |
+|        | [ ]    | [ ]    | [ ]        | 0       |
+|        | [ ]    | [ ]    | [ ]        | 1       |
 
 ## Gameplay
 
-### Turn Phases
+During each turn your will deploy cards from your hand into your 3 lanes to mine crystals, level up your attack, or increase production to allow you to play more cards.
 
-1. Start of Round
+Cards played in the Mining lane increase the number of crystals you gain, the Attack lane increases your attack power to deal damage or defend from opponents, and the production lane unlocks the ability to play more advanced cards and abilities, as well as play more cards on your turn. Balancing how you play out your hand will determine who claims the planet and it's precious crystals.
 
-    Apply any abilities from cards that specified **"Start of Next Round"** from the previous round.
+### Start of Game
 
-1. Deploy Phase
+Draw 6 cards, and then keep 3. Shuffle the remaining 3 cards back into your faction deck.
 
-    Each player takes the below actions in order, then declares once they are done to have the player to the left take their turn. On your turn do the below actions, unless you have a card or ability that says otherwise.
+Skip the draw step on your first turn.
 
-    1.1.  Draw a card. You may draw from your **basic deck**, or your **faction deck**.
+### Turn Order (Phases)
 
-    1.2. Add up the power of the cards in your **Research lane** and set this as your **tech limit** for the turn. Any cards played this turn do not add to your **tech limit**, unless you have an ability that specifically states that it does.
+1. Draw - Each player may draw 1 from their faction deck.
 
-    1.2.  Play a card from your hand. Subtract the cost from your current crystal supply for each card as it's played and make sure you have enough **tech limit** remaining. Trigger any **“When Played”** abilities on the card, in the order they are written. Fully resolve one cards abilities before playing the next. You may play any number of cards from your hand, provided you have the **tech limit** and **crystals** to do so.
+2. Deploy - Starting with the player with the priority token, play cards from your hand and pay their costs. Activate PLAY abilities immediately after playing the card. Once a player has played all the cards and abilities they want for the round, move to the next player clockwise.
 
-    _Trigger abilities after paying the cost, except for abilities that change the cost or tech requirement for the card you are playing._
+3. Battle - Calculate the Attack Power (AP) for all players. Players with lower AP take the difference in damage between their own AP, and the player with the most AP.
 
-1. Attack Phase
+4. Operations - Each player calculates their Mining Power and gains that many crystals. Each player calculates their Production Power and resets their production tokens to that number.
 
-    Apply any abilities from cards played this turn that have an “Attack Phase” trigger, such as increasing your power or preventing damage, to any of the calculations below.
+5. Aftermath - Starting with the player with the priority token, resolve all the END abilities for cards played this turn. Players may choose the order of their own activations.
 
-    Count up the attack value of your in play cards in the attack lane and your opponents attack lane. Deal damage based on the difference to the player with the lower attack value. For more that 2 players, you only count the highest power compared to yours. See examples below for more detail.
+6. Regroup - Reset any Cooldown abilities, remove disable from all cards, and remove temporary tokens from your lanes. You can also use this phase to stack you cards in the lane and reduce space.
 
-    Any players with 0 or less hitpoints at the end of this phase lose the game.
+7. Pass Priority - Move the Priority token to the player to your left.
 
-    _Example (2 players): If Player 1 has 7 attack and Player 2 has 3 attack, Player 2 takes 4 damage (decreases their hitpoints by 4)._
+## Stacking Cards
 
-    _Example (3+ players): Player 1 has 7 attack, Player 2 has 3 attack and Player 3 has 5 attack power. Player 1 takes no damage as they have the highest power. Player 2 takes 4 damage as it is the difference between their power and the highest power. Finally, Player 3 takes 2 damage as they are only 2 below the highest power._
+Cards in Crystal Factions are designed to allow you to stack them on top of each other, with only the top row showing after the turn you play them.
 
-1. Mining Phase
+All text on the cards is activated on the turn you play it, so covering the text for following turns is fine, even for new players. Card types are represented by the icon in the top right and can be used to quickly identify cards of a certain type you control in your lanes.
 
-    Apply any abilities from cards played this turn that have an “Mining Phase” trigger, such as increasing your power or preventing damage, to any of the calculations below.
+Text on played cards is public knowledge, so if asked you must show a card and it's text to an opponent when requested.
 
-    Add up the power of all the cards in your Mining lane. Gain crystals to your supply equal to your Mining power.
+<img src="./assets/images/stack_example.png" alt="Example of cards stacked in a lane." width="200"/>
 
-    If any player is at or above 50 crystals, they win the game. If multiple players are above 50 crystals, the player with the most crystals wins the game. If multiple players have the same amount of crystals, you may break the tie by the player with the most hitpoints, then power in the Attack lane, followed by the Tech lane, with the higher number being the winner. If all values are the same, then the game is a tie.
+## Screentop.gg
 
-1. End of Turn
+To reduce scrolling around the page, we use a slightly different layout on screentop compared to the one listed above. This layout has the discard pile to the left of the faction deck, and also moves the permanent cards and production track to the left as well.
 
-    Trigger any end of turn abilities, starting with the player with the first token
-
-1. End of Round
-
-    Transfer the **priority token** to the player to the left and reset any abilities that were only active "this turn".
+![Example of the layout used on screentop.gg](./assets/images/screentop_example.png)

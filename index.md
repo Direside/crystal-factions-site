@@ -10,3 +10,5 @@ Gameplay revoles around deploying cards to mine crystals, level up your attack, 
 <img src="./assets/images/demo_tts.png" alt="Example of a game in play with Cybernet Collective vs Megalaxian Mining Corp" style="width:1000px;height:auto;text-align:center;padding-left:100px;padding-right:100px;">
 
 See [Game Rules](./game_rules.md) for how to play!
+
+See the latest [patch notes](./patch_notes/latest.md)
