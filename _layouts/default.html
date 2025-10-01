@@ -1,24 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <h1>{{ page.title }}</h1>
-    <nav>
-      <ul>
-        {% for item in site.data.nav.nav_items %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
-      &copy; Direside
-    </footer>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+  <h1>{{ page.title }}</h1>
+  <nav>
+    <ul>
+      {% for item in site.data.nav.nav_items %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <section>
+    {{ content }}
+  </section>
+  <footer>
+    &copy; Direside
+  </footer>
+</body>
+
 </html>

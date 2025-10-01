@@ -1,4 +1,7 @@
-# Patch Notes
+---
+title: Crystal Factions - Patch Notes
+layout: default
+---
 
 See the latest game changes below.
 
