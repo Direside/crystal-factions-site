@@ -29,7 +29,7 @@ The two main objectives to win the game are to reduce the opponents hit points t
 
 ## Play Area Diagram
 
-Here is an examlpe setup for your play area. While it's not strictly enforced, it should be made clear to all players where your crystal supply, production, and discard piles are. For another example see the [Screentop layout](#screentopgg) for playing on [screentop.gg](https://screentop.gg/@Direside/crystal-factions).
+Here is an example setup for your play area. While it's not strictly enforced, it should be made clear to all players where your crystal supply, production, and discard piles are. For another example see the [Screentop layout](#screentopgg) for playing on [screentop.gg](https://screentop.gg/@Direside/crystal-factions).
 
 ### Legend
 
@@ -58,13 +58,13 @@ Cards played in the Mining lane increase the number of crystals you gain, the At
 
 ### Start of Game
 
-Draw 6 cards, and then keep 3. Shuffle the remaining 3 cards back into your faction deck.
+Draw 7 cards, and then keep 4. Shuffle the remaining 3 cards back into your faction deck.
 
 Skip the draw step on your first turn.
 
 ### Turn Order (Phases)
 
-1. Draw - Each player may draw 1 from their faction deck.
+1. Draw - Each player may draw 1 from their faction deck. If you can no longer draw cards from your faction deck, take 1 damage instead.
 
 2. Deploy - Starting with the player with the priority token, play cards from your hand and pay their costs. Activate PLAY abilities immediately after playing the card. Once a player has played all the cards and abilities they want for the round, move to the next player clockwise.
 
