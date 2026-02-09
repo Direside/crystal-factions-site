@@ -1,124 +1,87 @@
 ---
-title: Crystal Factions - Patch Notes 1.5.8
+title: Crystal Factions - Patch Notes 1.6.0
 layout: default
 ---
 
-Key updates include a card re-design and the icons are finally on the cards. I've had feedback that some of the icons aren't exactly what players imagined, but I'm keeping them the same for a while to see if its something we need to change, or just will take a while to get used to. Specifically the Boost, Production and Aftermath icons aren't exactly fitting their role.
+This is a big update, so I'll try keep it concise. The main change is around how Permanent cards exist in the game. These no longer start in your deck, and instead are on the battlefield from round 1. They now have conditions that must be met in order for you to use their abilities, and the upgraded abilities have a harder condition. This change was because Permanent cards not only saw little play, but when they were played at the beginning of the game they game way more value than if drawn towards the end. This change should allow the cards to be better balanced, but also help to give more options for players at the start, as well as when they have left over Production or Crystals.
 
 ## Core Mechanics
 
-- Drawing a card with an empty Faction Deck now causes you to lose 1 hitpoint
-- Disabling a card now also prevents it's Aftermath abilities
+- Each player now starts with 2 Permanent cards in play
+- Permanents have been re-balanced around being present from the start
+- Added trigger conditions for Permanent cards
 
-### Repeat
+## Art and Visual Design
 
-I am testing out the "Repeat" keyword instead of abilities that scale based on a number of cards or crystals, etc. Repeat would always mean "do this up to X times" so you don't have to repeat it, just you may. This is probably the biggest reason not to, but it would clean up a lot of the cards. For cards that you need to do it a specific number of times, they would not use the repeat keyword to avoid confusion.
-
-Before:
-
-- Deploy: Swarming 5. You may Destroy or Discard up to 5 of your Drone cards to add up to 10 boost tokens to your Attack lane (2 per card).
-
-After:
-
-- Deploy: Swarming 5. You may Destroy or Discard one of your Drone cards to add 2 boost tokens to your attack lane. **Repeat 5**.
-
-I can always revert back if I'm not liking the results or play testers are finding it harder. Let me know what you think!
+- Updated Attack power border
+- New hexagon shaped crystal icon
+- New look for Crystal and Production cost
+- Name and Ability background shape adjusted
+- New artwork for ORR and CC factions
 
 ## Decks
 
 The decks below with * are playable on [ScreenTop](https://screentop.gg/@Direside/crystal-factions) and are targetted at new players. The more advanced decks are still being balanced, but can be shared if you'd like to try them out.
 
-- Aerial Destruction* (Red)
-- Drone Swarming* (Blue)
-- Mercenary Bounce* (Green)
-- Infiltration Weaken* (Purple)
+- Aerial Destruction and Troopers* (Red)
+- Drone Swarming and Shields* (Blue)
+- Mercenary Bounce and Deep Mining* (Green)
+- Infiltration and Corruption* (Purple)
 
 ## Faction Changes
 
-### Outer Rime Raiders ~~Caldor's Brigadeers~~ (Red)
+### Outer Rime Raiders (Red)
 
-New name I'm trying out is the Outer Rim Raiders. They had raiders in the title previously and it fits the aggressive theme of the deck. Caldor was a soldier from the war who started the faction, but it didn't feel right to call out the name of a specific person in the faction name. The outer rim is where a lot of the crystal rich planets exist, so bringing that into the name made sense here.
+ORR are a great beginner faction with a lot of power. Part of the balance challenge around this faction has been how rewarding it is to just put a few cards in mining/production, then just play powerful attack cards one after another. This is great for the person playing them, but against others it can feel like you win by playing any cards you get. While they are a supposed to fill the role of a simpler faction, that doesn't mean they should not have strategy and player choice, which is sometimes missing. This patch hopes to introduce more choice around which cards to play, and re-focus on making smart decisions with limited resources.
 
-Very little changes to the cards as this deck is performing quite well.
-
-Adding the Mining Expedition to the deck gave it access to early crystals which make it much stronger, but also cause you to run out of cards if you don't draw your other draw cards. In response to this it's crystal gain was dropped from 3 to 2 as there were a lot of powerful plays on turn 2 with access to 3 additional crystals. The upgrade is still at 5 as you need multiple turns to get that online.
-
-Similarly, Base of Operations now also only saves you 2 crystals as it was very strong to play a 2 power card for only 2 cystals on turn one. It's now still a good play, but doesn't give you as big of a head-start and makes the discard more of a choice.
+There should also now be more of a balancing act between Aerial cards staying in lane vs. discarding them. You should look at abilities for Air Strike / Drop Troopers as a strategic decision more than a required ability. Keeping Aerial cards in lane can help power Rocket Barrage and Bombing Run, but Troopers can power the new Rallying Call card, or activate Mining Expedition.
 
 #### Changes
 
-- Added Mining Expedition to the starting deck, replacing Targetting Strike
-- Mining Expedition. Cooldown: During your deploy phase, you may discard a card from your hand to gain ~~3~~ -> 2 crystals. Upgrade:  Gain 5 crystals instead.
-- Reinforcements, ~~4c/1p~~ -> 5c/1p.
-- Base of Operations. You may discard a card from your hand to ~~-3~~ -> -2 crystals from this cards cost. Aftermath: Draw a card.
-- Field Promotion. You may Destroy one of your cards from any lane to play this card for free. (0 crystals 0 production)
-
-#### Observations
-
-- Paratroopers is a core card and the draw 2 is very strong. Considering moving to 3 production if it continues to over-perform
-- Base of Operations having "draw a card" makes it a super playable card, but it's a really cheap draw and discard outlet. Considering removing the draw to add a basic trooper deploy instead, or bumping to 3 production to make you invest before playing it.
+- Mining Expedition is now active from the start of the game. Requires cards in the mining lane to activate
+- Rocket Barrage is now active from the start of the game. Requires Aerial cards in play to activate
+- Air Strike destroy a card power ~~3~~ -> 2 or less
+- **NEW** Rallying Call, 5c/1p, 2/2/1. Deploy: Add a boost for each Basic Trooper in this lane.
+- ~~Spy Balloon~~ -> UAV Scout, 3c/2p, 1/2/1. Deploy: Look at the top 2 cards in your deck. Put one in your hand, and the other in the discard pile
+- ~~Paratroopers~~ -> Personel Carrier, 7c/3p, 4/4/3. Aftermath: Draw 2 cards OR Add 2 Basic Trooper to this lane
 
 ### Cybernetic Collective (Blue)
 
-The general feedback on the drone deck was that it lacked a finisher. The Drone Commander is a strong card, but wasn't able to win the game outright and it requires a lot of pre-planning to get value out of it. I'm keeping the card because it suits the deck well, but added a new finisher in Annihilator Drone.
+The core of the faction is playing well, but a few things weren't sitting right both thematically and in the interest of the player playing the faction. Conflux allowing you to add boosts was very strong, but went against the idea of playing cards into a specific lane as you could just pick a lane each turn. Removing that, and the ability for Drones to boost themselves when alone in a lane has brought back the idea that you need to build up a "swarm" to really do damage. The concern is that they will now lack the punch that made them competitive, but I will be looking to address that in the next patch.
 
-The Swarming mechanic is key to the drone deck, but its max values seem to add a complexity that maybe isn't needed. This version is trialing a two-tiered system where you are either max 3, or max 5. I'll keep an eye on this for the Hunter Drone as it's the cheapest and can add a lot of boosts, but I also don't often see many drones hitting their max, so I don't forsee a huge impact. The hope is that this will also promote more combo-style gameplay, where you save drones to play a bigger combo later.
+Secondly, the idea of being able to go into the later turns by shielding early damage proved strong, but also boring. Knowing you need to leave production open for +5 shield just gets boring and doesn't add much in terms of strategy or fun. Shields now cost boost tokens to activate which I'm hoping will make for more of a choice, but also balance it out to no longer allow shielding every turn. It should feel like a poor choice if you shielded and didn't block the full damage.
 
-#### New Cards
-
-- Annihilator Drone, 15c/6p, 9/11/8. Deploy: Swarming 5. You may Destroy or Discard one of your Drone cards to add 2 boost tokens to your attack lane. Repeat 5.
-- Arc Drill, 10c/4p, 8/6/5. Deploy: You may remove a boost token gain 2 crystals. Repeat 5.
+Finally, I'm slowly reducing the cost of some of the Drone cards to make it easier to play more of them and "swarm". This is starting with Drone Commander, because I really want to allow for the multiple Basic Trooper into Drone Command play, and the cost is so high it's preventing that right now. I can imagine it getting an even lower production cost, but want to test it out with just a crystal reduction first.
 
 #### Changes
 
-- Added Annihilator Drone to starting deck
-- Added Shield Generator to starting deck
-- Hunter Drone. Swarming ~~2~~ -> 3.
-- Strike Drone. Swarming ~~4~~ -> 5.
-- Drone Commander, ~~6/7/6~~ -> 8/8/8.
-
-#### Observations
-
-- Laser Miner is a great turn 1 play, boosting your mining to pay for itself and giving you a +2 crystal head start into turn 2. Interestingly, moving it to 2 production won't change anything as playing on turn 1 uses all your crystals. Making it cost 6c would make it a lot worse, and stop the turn 1 play. But you can then achieve similar results with 2x Hunter Drone, for 1c cheaper anyway.
-- Drone Commander is hard to get value out of with it's high production cost meaning you can't play much else on the same turn. Giving it more power across the board is nice, but it would be nice to see a combo like Drone Commander + Strike Drone to take out a huge unit for a turn. 24c/8p is way to high for that, so maybe those cards become cheaper and lower power level.
+- Removed "Swarming" keyword from all Drones. See: Drone Swarm below
+- Shield Generator is now active from the start of the game. Requires boost tokens to activate
+- **NEW** Drone Swarm (Permanent). When you play a Drone in a lane, add 1 boost for each other Drone in that lane. 3+ Drones: Add 2 boosts instead
+- **NEW** Energy Reflector Array, 10c/6p, 5/6/6. Deploy (choose one): Gain 5 shield OR Add 2 boost to each lane with a Drone
+- Collector Drone, ~~6c/2p~~ -> 5c/3p.
+- Drone Commanded, ~~12c/5p~~ -> 9c/5p. ~~8/8/8~~ -> 7/7/7.
 
 ### MMC (Green)
 
-No big changes this patch, but there are a few things I'm keeping an eye on. The game plan for the starter deck seems to rely heavily on drawing into Field Lab and Ore Hauler early and then not having access to Warmachine feels like it stops you in your tracks.
+While skipping any big changes in the last two patches, this time MMC is getting some attention. There are some core cards that work well (Ore Hauler/Field Lab -> Warmachine/Seismic), but the Mercenaries aren't really hitting the goal of strategic gameplay. They went against the idea of the game by turning it into a math equation as to if you are saving enough money yet to justify returning and replaying them every turn. This was also heavily tied to whether or not you had the Long-term Contact in play, which just made the game very dull.
 
-There are a couple of new cards, but none are in the starting deck yet as they are still in testing. The key ones to look at if you want to play the starter deck with a few moderations are Repair Crew and Mining Technician, both of which have the Mercenary tag and help build up to your late-game cards. Juggernaut is a big card for the basic deck to give you a better range of basics from Trooper -> Boring Machine -> Juggernaut. Recoil is for the bounce deck, which is still not fully fleshed out, and Deployment Strategist is part of the both the shift package and the mercenary one.
+The reworked ability now allows for a much cheaper play cost, which includes a production cost reduction as well. This is to help balance the feeling of losing too much momentum by ever returning cards to your hand. In addition, the abilities on the Mercenaries have either been upgraded or added. Hired Mercs and Temp Agency previously had no real ability, outside of ways to make them cheaper stats, so they've now been replaced with cards that can effect the game state in more interesting ways, which now require you to pay extra crystals, leaning into the mining heavy theme of the faction. I will be keeping an eye on if this means you run out of crystals too quickly, and possibly increase the mining values on a few cards to compensate.
 
-#### New Cards
+#### Changes
 
-- Juggernaut [Basic], 12c/6p 10/10/10
-- Repair Crew [Mercenary], 3c/1p 2/1/2. Aftermath: Gain 3 hitpoints. Pay 2 crystals or return this card to your hand
-- Mining Technician [Mercenary], 4c/4p 6/6/5. Aftermath: Gain 2 crystals for each card in your Production lane. Pay 5 crystals or return this card to your hand.
-- Recoil, 5c/4p 3/4/4. Aftermath: For each opponent, return a card with power 3 or less to their hand.
-- Deployment Strategist [Mercenary], 8c/6p 7/9/7. Aftermath: Shift up to 3 of your cards to another lane. Pay 5 crystals or return this card to your hand.
+- Advanced Mining Rig is in play from the start of the game. Once: During your deploy phase, you may pay 1 production to gain 3 crystals. If you have 10+ mining power, gain 5 instead
+- Long-term Contract is in play from the start of the game. Once: When you return a Mercenary card to your hand, you may gain 1 crystal. If you have 3+ Mercenaries in play, gain 2 crystals instead.
 
-#### Card Changes
+### Endracor Federation (Purple)
 
-The power per crystal on Temp Agency at 8c/1p made it really inefficient to play unless you have at least 3 Mercenaries already out. 6c/2p makes it more playable early and better balances the choice between playing Mercenaries and getting Long-term Contract online.
+TODO
 
-Warmachine often was a huge power swing, but then if you didn't win the game, you were on the back foot again immediately next turn. The ability on the card didn't make it worth returning to your hand and playing again for another 12 crytals, so you would never do that. The end of turn cost is supposed to make a choice for players and here it was just a punishment with no upside. I looked into increasing the power of the card it returns to 5, but that only added one additional target per faction and didn't help at all.
+#### Changes
 
-- Temp Agency. ~~8c/1p~~ -> 6c/2p
-- Warmachine. ~~Pay 5 crystals or return this card to your hand.~~ (Removed end of turn cost)
-
-### Endracor (Purple)
-
-Endracor are finally fitting in well with the other decks. We are seeing the discard mechanic be both strong, but not overpowered. Getting a Sabotage out before your opponent plays an Annihilator Drone or Warmachine is super cool, but if you are too late then it's 7 power isn't usually enough to win the game, leading to some longer battles.
-
-#### New Cards
-
-- Divert Resources, 6c/3p, 4/3/4. Deploy: For each opponent, add a corruption token to their Mining lane. Aftermath: Choose an opponent. Gain 2 crystals for every CORR on their MINING lane
-- Recalibration, 2c/1p, 1/2/2. Deploy: You may convert a corruption token to a boost or a boost to a corruption token. Repeat 2.
-
-#### Card Changes
-
-- Bribery. Deploy: You may spend 1 crystal to add 2 corruption tokens to your opponents Mining lane. If you have at least 3 Infiltration cards in your lanes, including this one, repeat 3.
+- TODO
 
 ## ScreenTop Fixes
 
-- Priority Token now has an arrow to make it more clear who's turn it is (use E and Q to rotate)
-- New Icon and Turn Order cards
+- New 2x2 faction board to accomodate the Permanent card change
+- Cleanup Deck Builder page a bit. Removed some old decks that no longer function
