@@ -1,5 +1,5 @@
 ---
-title: Crystal Factions - Patch Notes 1.6.0
+title: Crystal Factions - Patch Notes 1.6.1
 layout: default
 ---
 
