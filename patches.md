@@ -5,10 +5,12 @@ layout: default
 
 ## Latest Patch
 
-- [1.6.4](patch_notes/1.6.4.md) 
+- [1.6.6](patch_notes/1.6.6.md) 
 
 ## Older Patches
 
+- [1.6.5](patch_notes/1.6.5.md) 
+- [1.6.4](patch_notes/1.6.4.md) 
 - [1.6.3](patch_notes/1.6.3.md)
 - [1.6.2](patch_notes/1.6.2.md)
 - [1.6.1](patch_notes/1.6.1.md)
